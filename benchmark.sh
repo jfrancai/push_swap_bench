@@ -6,7 +6,7 @@
 #    By: jfrancai <jfrancai@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/11 12:23:37 by jfrancai          #+#    #+#              #
-#    Updated: 2022/02/11 12:23:39 by jfrancai         ###   ########.fr        #
+#    Updated: 2022/02/11 12:24:47 by jfrancai         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,12 +18,12 @@
 # Benchmark size when --stats flag is used
 # Complexity will be : SET_LEN * complex.of.your.push_swap_algo
 # Try with small value at first
-SET_LEN=10
+SET_LEN=1000
 
 # Random number generator (use your own list if your prefer to)
 # For this one you should make sure that ruby is install on your machin
 MIN=1
-MAX=500
+MAX=5
 ARG=`ruby -e "puts ($MIN..$MAX).to_a.shuffle.join(' ')"`
 
 # Execute the following bin with ARG as param
